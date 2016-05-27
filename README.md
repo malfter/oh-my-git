@@ -115,6 +115,12 @@ omg_is_on_a_tag_symbol='#'
 
 to your `.bashrc` file, and oh-my-git will use `#` when you are on a tag.
 
+# Customizing prompt
+You can easily add a prefix to the oh-my-git prompt, use the environment variable `PS1_PREFIX`
+
+```
+PS1_PREFIX=\n # add a new line before the next prompt
+```
 
 # Disabling oh-my-git
 oh-my-git can be disabled on a per-repository basis. Just add a
